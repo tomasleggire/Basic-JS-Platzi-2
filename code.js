@@ -9,6 +9,11 @@ const p = document.querySelector("#resultado");
 
 const form = document.querySelector("#formulario")
 
+
+form.addEventListener("sumbit",() =>{
+    
+})
+
 btn.addEventListener("click",()=> {
    let result = Number(input1.value) +  Number(input2.value);
    console.log(result);
